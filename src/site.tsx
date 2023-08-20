@@ -9,7 +9,7 @@ const Site = () => {
 
     return (
         <div
-            className={`background-homesmooth bg-no-repeat bg-cover w-screen h-screen`}
+            className={`background-homesmooth bg-loq-dark-blue bg-no-repeat bg-cover w-screen h-screen`}
         >
             <Navbar pNavbarRef={navbarRef} />
             <Home />
