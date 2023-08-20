@@ -1,9 +1,9 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import UI from "./ui.tsx";
+import Site from "./site.tsx";
 
 ReactDOM.createRoot(document.getElementById("root") as HTMLElement).render(
     <React.StrictMode>
-        <UI />
+        <Site />
     </React.StrictMode>
 );

@@ -1,7 +1,7 @@
 import DefaultComponent from "./components/defaultComponent";
 
-const UI = () => {
+const Site = () => {
     return <div>{<DefaultComponent />}</div>;
 };
 
-export default UI;
+export default Site;
