@@ -7,8 +7,8 @@ export default {
                 poppins: ["Poppins", "sans-serif"],
             },
             backgroundImage: {
-                homenoise: "url('./bg_home_noise.png')",
-                homesmooth: "url('./bg_home_smooth.png')",
+                homenoise: "url('./assets/bg_home_noise.png')",
+                homesmooth: "url('./assets/bg_home_smooth.png')",
             },
         },
     },
