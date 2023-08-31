@@ -1,3 +1,19 @@
 .background-homesmooth {
     background-image: url("../../public/bg_home_smooth.png");
 }
+
+.background-loq-avatar {
+    background-image: url("../../public/foxxo-large.png");
+}
+
+.background-foxxo-adventures {
+    background-image: url("../../public/foxxo_adventures.gif");
+}
+
+.background-fivem-logo {
+    background-image: url("../../public/fivem-logo.png");
+}
+
+.background-x-logo {
+    background-image: url("../../public/x-twitter-fml.png");
+}
