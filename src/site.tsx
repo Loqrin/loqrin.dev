@@ -1,29 +1,23 @@
-import Navbar from "./components/navbar";
 import "./css/tailwind.css";
 import "./css/backgrounds.css";
 import "./css/scrollbar.css";
-import Home from "./components/home";
-import About from "./components/about";
-import Fivem from "./components/fivem";
-import Contact from "./components/contact";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import MainPage from "./mainPage";
+import LeToucanPage from "./leToucanPage";
 
 const Site = () => {
     return (
-        <div
-            className={`background-homesmooth bg-loq-dark-blue bg-no-repeat bg-contain w-auto h-auto`}
-        >
-            <Navbar />
-            <Home />
-            <About />
-            <Fivem />
-            <Contact />
-
-            <div className="w-auto flex justify-center items-center mt-10 pb-10">
-                <span className="font-poppins font-thin text-xl text-white ">
-                    Made with ❤️ by Loqrin
-                </span>
+        <Router>
+            <div
+                className={`background-homesmooth bg-loq-dark-blue bg-no-repeat bg-contain w-auto h-auto`}
+            >
+                <Routes>
+                    <Route path="/" element={<MainPage />}></Route>
+                    <Route path="/letoucan" element={<LeToucanPage />}></Route>
+                    <Route path="*" element={<MainPage />}></Route>
+                </Routes>
             </div>
-        </div>
+        </Router>
     );
 };
 
