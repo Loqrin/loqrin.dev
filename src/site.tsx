@@ -1,7 +1,7 @@
 import "./css/tailwind.css";
 import "./css/backgrounds.css";
 import "./css/scrollbar.css";
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import { HashRouter as Router, Route, Routes } from "react-router-dom";
 import MainPage from "./mainPage";
 import LeToucanPage from "./leToucanPage";
 
